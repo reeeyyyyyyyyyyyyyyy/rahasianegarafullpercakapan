@@ -1,0 +1,28 @@
+{
+  "name": "tifa-ws-gateway",
+  "version": "1.0.0",
+  "description": "TIFA WebSocket Gateway - Enterprise Grade",
+  "main": "src/ws/server.js",
+  "scripts": {
+    "start": "node src/ws/server.js",
+    "dev": "nodemon src/ws/server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "websocket",
+    "kafka",
+    "tifa",
+    "robot"
+  ],
+  "author": "TIFA Team",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "kafkajs": "^2.2.4",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "com.forgix.tifa.cc",
+  "appName": "TIFA CC",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

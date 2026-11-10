@@ -1,0 +1,69 @@
+# =============================================
+# TIFA Backend (Spring Boot) .gitignore
+# =============================================
+
+# Maven & Build output
+target/
+*.jar
+*.war
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle (if used)
+.gradle/
+build/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.project
+.classpath
+.settings/
+bin/
+.vscode/
+
+# Environment & Config
+.env
+.env.local
+.env.*.local
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# Logs
+*.log
+logs/
+spring.log
+
+# OS & Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+keystore/
+*.db
+*.sqlite
+*.h2.db
+data/
+*.backup
+*.bak
+*.tmp
+*.temp
+hs_err_pid*
+replay_pid*

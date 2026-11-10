@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TIFA CC</string>
+    <string name="title_activity_main">TIFA Command Control</string>
+    <string name="package_name">com.forgix.tifa.cc</string>
+    <string name="custom_url_scheme">com.forgix.tifa.cc</string>
+</resources>
